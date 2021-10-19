@@ -3,7 +3,8 @@ import { SliderData } from '../../data/SliderData'
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 import "./styles.css"
 
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function ImageSlider({ slides }) {
 
@@ -40,7 +41,12 @@ function ImageSlider({ slides }) {
                             <div className={index === current ? 'slide active' : 'slide'} key={index}>
                                 {
                                     index === current && (<div>
-                                        <img src={slide.image} alt="design-images" className="image" />
+                                        <LazyLoadImage
+                                            src={slide.image}
+                                            alt="design-images"
+                                            className="image"
+                                            effect="blur"
+                                        />
                                         <p className="text-image">{slide.name}</p>
                                     </div>)
                                 }

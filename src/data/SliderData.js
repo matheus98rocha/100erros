@@ -1,76 +1,97 @@
-import euAmoMinhaQuebrada1 from '../assets/images/EuAmoMinhaQuebrada/EuAmoMinhaQuebrada1.jpg'
-import euAmoMinhaQuebrada2 from '../assets/images/EuAmoMinhaQuebrada/EuAmoMinhaQuebrada2.png'
-import lucasRata from '../assets/images/LucasRasta/LucasRasta1.png'
+import euAmoMinhaQuebrada1 from '../assets/images/EuAmoMinhaQuebrada/EuAmoMinhaQuebrada1.jpg';
+import euAmoMinhaQuebrada2 from '../assets/images/EuAmoMinhaQuebrada/EuAmoMinhaQuebrada2.png';
 
-import image0 from '../assets/images/4T-Shirt-Mockup.jpg'
-import image1 from '../assets/images/12251.png'
-import image2 from '../assets/images/89708.jpg'
-import image3 from '../assets/images/3131312.png'
-import image4 from '../assets/images/BLUSA1.png'
-import image5 from '../assets/images/blusa3.png'
-import image6 from '../assets/images/carimbo02.jpg'
-import image7 from '../assets/images/CV1.png'
-import image8 from '../assets/images/logopri213.png'
-import image9 from '../assets/images/mobilizaBEHANCE.png'
-import image10 from '../assets/images/sdalknddalogo.png'
+import centralIluminacao1 from '../assets/images/centralIluminacao/carimbo02.jpg';
+import centralIluminacao2 from '../assets/images/centralIluminacao/kit.png';
+import centralIluminacao3 from '../assets/images/centralIluminacao/van.jpg';
+
+import calindra from '../assets/images/kaio.maofeat@baeziado/calindra.jpg';
+
+import ayoluwajoias from '../assets/images/@ayoluwajoias/AY-2.jpg';
+
+import igubantu from '../assets/images/@IGUBANTU/tenta3.png';
+
+import batalhaDaleste from '../assets/images/Batalha Daleste/FONTESDALESTE.png';
+
+
+
+import lucasRata from '../assets/images/LucasRasta/cd_rasta.jpg';
+import lucasRata2 from '../assets/images/LucasRasta/FRENNNTE-CD11.png';
+
+import MarianaMacedo from '../assets/images/Mariana Macedo/12251.png';
+
+import meditacao from '../assets/images/Meditação app/ing – 4.png';
+
+
+import MobilizaMinas1 from '../assets/images/Mobiliza Minas/mobilizaBEHANCE.png';
+import MobilizaMinas2 from '../assets/images/Mobiliza Minas/MOBILIZAMINASBEHANCE.png';
 
 
 export const SliderData = [
     {
-        name: "Eu Amo Minha Quebrada",
+        name: "@euamominhaquebradaoficial",
         image: euAmoMinhaQuebrada1
     },
     {
-        name: "Eu Amo Minha Quebrada",
+        name: "@euamominhaquebradaoficial",
         image: euAmoMinhaQuebrada2
     },
     {
-        name: "Eu Amo Minha Quebrada",
-        image: image0,
+        name: "@centraliluminacao",
+        image: centralIluminacao1
+    },
+
+    {
+        name: "@centraliluminacao",
+        image: centralIluminacao2
     },
     {
-        name: "Eu Amo Minha Quebrada",
-        image: image2,
+        name: "@centraliluminacao",
+        image: centralIluminacao3
     },
+
+    {
+        name: "@kaio.mago @baeziado",
+        image: calindra
+    },
+
+    {
+        name: "@ayoluwajoias",
+        image: ayoluwajoias
+    },
+
+    {
+        name: "@IGUBANTU",
+        image: igubantu
+    },
+
+    {
+        name: "Batalha Daleste",
+        image: batalhaDaleste
+    },
+
     {
         name: "Lucas Rasta",
         image: lucasRata
     },
     {
+        name: "Lucas Rasta",
+        image: lucasRata2
+    },
+    {
         name: "Mariana Macedo",
-        image: image1,
-    },
-
-    {
-        name: "Central Iluminação Design",
-        image: image3,
+        image: MarianaMacedo
     },
     {
-        name: "Central Iluminação Design",
-        image: image4,
-    },
-    {
-        name: "Central Iluminação Design",
-        image: image5,
-    },
-    {
-        name: "Central Iluminação Design",
-        image: image6,
-    },
-    {
-        name: "Central Iluminação Design",
-        image: image7,
-    },
-    {
-        name: "Central Iluminação Design",
-        image: image8,
+        name: "Meditação App",
+        image: meditacao
     },
     {
         name: "Mobiliza Minas",
-        image: image9,
+        image: MobilizaMinas1,
     },
     {
-        name: "Central Iluminação Design",
-        image: image10,
-    }
+        name: "Mobiliza Minas",
+        image: MobilizaMinas2,
+    },
 ]

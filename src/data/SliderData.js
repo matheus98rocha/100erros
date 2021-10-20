@@ -2,29 +2,29 @@ import euAmoMinhaQuebrada1 from '../assets/images/EuAmoMinhaQuebrada/EuAmoMinhaQ
 import euAmoMinhaQuebrada2 from '../assets/images/EuAmoMinhaQuebrada/EuAmoMinhaQuebrada2.png';
 
 import centralIluminacao1 from '../assets/images/centralIluminacao/carimbo02.jpg';
-import centralIluminacao2 from '../assets/images/centralIluminacao/kit.png';
+import centralIluminacao2 from '../assets/images/centralIluminacao/kit.jpg';
 import centralIluminacao3 from '../assets/images/centralIluminacao/van.jpg';
 
 import calindra from '../assets/images/kaio.maofeat@baeziado/calindra.jpg';
 
 import ayoluwajoias from '../assets/images/@ayoluwajoias/AY-2.jpg';
 
-import igubantu from '../assets/images/@IGUBANTU/tenta3.png';
+import igubantu from '../assets/images/@IGUBANTU/tenta3.jpg';
 
-import batalhaDaleste from '../assets/images/Batalha Daleste/FONTESDALESTE.png';
+import batalhaDaleste from '../assets/images/Batalha Daleste/FONTESDALESTE.jpg';
 
 
 
 import lucasRata from '../assets/images/LucasRasta/cd_rasta.jpg';
-import lucasRata2 from '../assets/images/LucasRasta/FRENNNTE-CD11.png';
+import lucasRata2 from '../assets/images/LucasRasta/FRENNNTE-CD11.jpg';
 
-import MarianaMacedo from '../assets/images/Mariana Macedo/12251.png';
+import MarianaMacedo from '../assets/images/Mariana Macedo/12251.jpg';
 
 import meditacao from '../assets/images/Meditação app/ing – 4.png';
 
 
-import MobilizaMinas1 from '../assets/images/Mobiliza Minas/mobilizaBEHANCE.png';
-import MobilizaMinas2 from '../assets/images/Mobiliza Minas/MOBILIZAMINASBEHANCE.png';
+import MobilizaMinas1 from '../assets/images/Mobiliza Minas/mobilizaBEHANCE.jpg';
+import MobilizaMinas2 from '../assets/images/Mobiliza Minas/MOBILIZAMINASBEHANCE.jpg';
 
 
 export const SliderData = [

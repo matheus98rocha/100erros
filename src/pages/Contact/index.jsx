@@ -1,5 +1,26 @@
 import React, { useEffect } from 'react'
 import Header from '../../components/Header/index'
+import { ImInstagram } from 'react-icons/im';
+import { Link } from 'react-router-dom';
+import emailjs from 'emailjs-com';
+import './styles.css'
+
+export const ContactUs = (e) => {
+
+    e.preventDefault();
+
+    emailjs.sendForm('gmail', 'template_s57cwpo', e.target, 'user_RkVzgdvrWHpBhoBzgXg0O')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    e.target.reset();
+};
+
+const text = () => {
+    alert("tedy")
+}
 
 function Index() {
 
@@ -7,10 +28,36 @@ function Index() {
         document.title = "100erross | Contato"
     });
     return (
-        <div>
+        <div className="contact">
             <Header />
-            <h1>Contato</h1>
-        </div>
+            <div className="email-content">
+
+                <form onSubmit={ContactUs}>
+
+                    <div className="header-email">
+                        <p>Me encontre nas redes sociais ou me envie uma mensagem:</p>
+                        <Link
+                            to={{ pathname: "https://www.instagram.com/100erross/" }}
+                            style={{ color: "black" }}
+                            target="_blank"
+                        >
+                            <ImInstagram className="instagram-icon" />
+                        </Link>
+
+                    </div>
+
+                    <label className="text-name">Nome</label>
+                    <input type="text" className="form-field" name="name" />
+
+                    <label className="text-lastName">Sobrenome</label>
+                    <input type="text" className="form-field" name="lasName" />
+
+                    <label className="text-email body-text">Mensagem</label>
+                    <textarea type="text" className="form-field body-email" name="message" />
+                    <button type="submit" onClick={text}>Enviar</button>
+                </form >
+            </div >
+        </div >
     )
 }
 

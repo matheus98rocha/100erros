@@ -33,7 +33,7 @@ export const SliderData = [
         image: euAmoMinhaQuebrada1
     },
     {
-        name: "@euamominhaquebradaoficial",
+        name: "@cdcppg",
         image: euAmoMinhaQuebrada2
     },
     {

@@ -58,7 +58,11 @@ li:hover {
         font-size: 50px;
 
     }
- 
+
+    ul{
+        margin-top: 50px;
+    }
+
     .nav-menu{
         display: none;
     }

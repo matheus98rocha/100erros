@@ -73,7 +73,7 @@ button {
     width: 120px;
 
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
 
     margin-top: 15px;
     transition: 2ms;
@@ -85,26 +85,23 @@ button:hover {
 
 
 @media (max-width: 925px) {
-    .contact {
-        display: flex;
-        align-items: center;
-        justify-self: center;
 
-        flex-direction: column;
-
-        height: 50vh;
-
-        width: 80vw;
-    }
 
     .email-content {
         z-index: 0;
+        position: relative;
+        top: 70px;
     }
 
     .email-content form {
-        width: 390px;
+        width: 250px;
     }
 
+    .header-email{
+        margin-bottom: 20px;
+    }
+
+    /* Text align */
     .text-email {
         margin-left: 105px;
     }
@@ -114,11 +111,19 @@ button:hover {
     }
 
     .text-lastName {
-        margin-left: 110px;
+        margin-left: 415px;
     }
 
     .text-name {
-        margin-left: 110px;
+        margin-left: 440px;
+    }
+
+    .body-text {
+        margin-left: 420px;
+    }
+
+    input,textarea{
+        font-size: 15px;
     }
 
 

@@ -5,22 +5,17 @@ import { Link } from 'react-router-dom';
 import emailjs from 'emailjs-com';
 import './styles.css'
 
-export const ContactUs = (e) => {
-
+const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_s57cwpo', e.target, 'user_RkVzgdvrWHpBhoBzgXg0O')
+    emailjs.sendForm('service_undr7yl', 'template_nsuw96i', e.target, 'user_RkVzgdvrWHpBhoBzgXg0O')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
             console.log(error.text);
         });
-    e.target.reset();
-};
-
-const text = () => {
-    alert("tedy")
 }
+
 
 function Index() {
 
@@ -32,7 +27,7 @@ function Index() {
             <Header />
             <div className="email-content">
 
-                <form onSubmit={ContactUs}>
+                <form onSubmit={sendEmail}>
 
                     <div className="header-email">
                         <p>Me encontre nas redes sociais ou me envie uma mensagem:</p>
@@ -47,14 +42,14 @@ function Index() {
                     </div>
 
                     <label className="text-name">Nome</label>
-                    <input type="text" className="form-field" name="name" />
+                    <input type="text" className="form-field" name="user_name" />
 
                     <label className="text-lastName">Sobrenome</label>
                     <input type="text" className="form-field" name="lasName" />
 
                     <label className="text-email body-text">Mensagem</label>
                     <textarea type="text" className="form-field body-email" name="message" />
-                    <button type="submit" onClick={text}>Enviar</button>
+                    <button type="submit">Enviar</button>
                 </form >
             </div >
         </div >

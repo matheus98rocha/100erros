@@ -38,7 +38,6 @@ function Index() {
                         >
                             <ImInstagram className="instagram-icon" />
                         </Link>
-
                     </div>
 
                     <label className="text-name">Nome</label>

@@ -15,7 +15,6 @@ function Index() {
         <div className="NavbarItems">
 
             <motion.button className="menu-icon"
-                whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
             >
                 <i className={clicked ? 'fas fa-times' : 'fas fa-bars'} onClick={changeIcon} style={{ color: "white" }} />

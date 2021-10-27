@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Header from '../../components/Header/index'
 import ImageSlider from '../../components/ImagerSlider/ImageSlider'
 import { SliderData } from '../../data/SliderData'
@@ -7,6 +7,9 @@ import "./styles.css"
 
 
 function Home() {
+    useEffect(() => {
+        document.title = " 100erross | giulio cesare "
+    });
 
     return (
         <div className="home">
@@ -14,8 +17,6 @@ function Home() {
                 <Header />
 
                 <ImageSlider slides={SliderData} />
-
-            {/* Pass the two vídeos here  Formigas*/}
 
         </div>
     )

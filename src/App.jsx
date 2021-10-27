@@ -7,8 +7,9 @@ import './App.css'
 const Home = lazy(() => import("./pages/Home/Home"));
 const About = lazy(() => import("./pages/About/index"));
 const CentroBh = lazy(() => import("./pages/Analogica/index"));
-const Pojects = lazy(() => import("./pages/Projects/index"));
+const Pojects = lazy(() => import("./pages/Session/index"));
 const Designer = lazy(() => import("./pages/Designer/index"));
+const Videos = lazy(() => import("./pages/Videos/index"));
 const Contact = lazy(() => import("./pages/Contact/index"));
 
 
@@ -41,6 +42,7 @@ function App() {
             <Route path={Routes.PROJETOS} component={Pojects} exact />
             <Route path={Routes.DESIGNER} component={Designer} exact />
             <Route path={Routes.CONTATO} component={Contact} exact />
+            <Route path={Routes.VIDEOS} component={Videos} exact />
 
             <Route component={NotFound} />
           </Switch>

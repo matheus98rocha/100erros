@@ -34,13 +34,10 @@
 
     .slide {
         opacity: 0;
-        transition-duration: 1s ease;
     }
 
     .slide.active {
         opacity: 1;
-        transition-duration: 1s;
-        transform: scale(1.08);
     }
 
 
@@ -48,9 +45,17 @@
         height: 500px;
         width: 500px;
         border-radius: 10px;
+
     }
 
-    .text-image{
+    .left-arrow:hover {
+        transform: scale(1.1);
+    }
+    .right-arrow:hover {
+        transform: scale(1.1);
+    }
+
+    .text-image {
         padding: 20px;
         background-color: white;
 
@@ -73,7 +78,7 @@
             align-items: center;
             justify-content: center;
             z-index: 1;
-            
+
             margin-top: 15px;
             margin-bottom: 20px;
 

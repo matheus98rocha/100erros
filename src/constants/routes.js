@@ -4,3 +4,4 @@ export const CENTROBH = "/analogica";
 export const PROJETOS = "/sessao";
 export const DESIGNER = "/designer";
 export const CONTATO = "/contato";
+export const VIDEOS = "/videos";

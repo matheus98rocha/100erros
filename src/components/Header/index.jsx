@@ -44,6 +44,10 @@ function Index() {
                         <li>Designer</li>
                     </Link>
 
+                    <Link to="/videos" style={{ textDecoration: "none" }}>
+                        <li>Videos</li>
+                    </Link>
+
                     <Link to="/contato" style={{ textDecoration: "none" }}>
                         <li style={{ borderRight: "none" }}>Contato</li>
                     </Link>

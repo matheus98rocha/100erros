@@ -6,7 +6,12 @@ import './App.css'
 
 const Home = lazy(() => import("./pages/Home/Home"));
 const About = lazy(() => import("./pages/About/index"));
-const CentroBh = lazy(() => import("./pages/Analogica/index"));
+
+const Analogica = lazy(() => import("./pages/Analogica/index"));
+const BeloHorizontePage = lazy(() => import("./pages/Analogica/BeloHorizontePage"));
+const ManifestoPage = lazy(() => import("./pages/Analogica/ManifestoPage"));
+
+
 const Pojects = lazy(() => import("./pages/Session/index"));
 const Designer = lazy(() => import("./pages/Designer/index"));
 const Videos = lazy(() => import("./pages/Videos/index"));
@@ -38,7 +43,12 @@ function App() {
           <Switch>
             <Route path={Routes.HOME} component={Home} exact />
             <Route path={Routes.SOBRE} component={About} exact />
-            <Route path={Routes.CENTROBH} component={CentroBh} exact />
+            <Route path={Routes.ANALOGICA} component={Analogica} exact />
+            <Route path={Routes.BELOHORIZONTE} component={BeloHorizontePage} exact />
+            <Route path={Routes.MANIFESTO} component={ManifestoPage} exact />
+
+
+
             <Route path={Routes.PROJETOS} component={Pojects} exact />
             <Route path={Routes.DESIGNER} component={Designer} exact />
             <Route path={Routes.CONTATO} component={Contact} exact />

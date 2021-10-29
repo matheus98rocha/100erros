@@ -16,7 +16,7 @@ import photo15 from '../../assets/images/analogicas/Manifesto/15.png';
 import photo16 from '../../assets/images/analogicas/Manifesto/16.jpg';
 import photo17 from '../../assets/images/analogicas/Manifesto/17.jpg';
 import photo18 from '../../assets/images/analogicas/Manifesto/18.JPG';
-import photo19 from '../../assets/images/analogicas/Manifesto/19.JPG';
+// import photo19 from '../../assets/images/analogicas/Manifesto/19.JPG';
 
 
 export const Manifesto = [
@@ -92,8 +92,8 @@ export const Manifesto = [
         name: "photo18",
         image: photo18
     },
-    {
-        name: "photo19",
-        image: photo19
-    }
+    // {
+    //     name: "photo19",
+    //     image: photo19
+    // }
 ]

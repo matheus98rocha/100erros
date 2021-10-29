@@ -1,10 +1,12 @@
 import React, { useEffect } from 'react'
 import Header from '../../components/Header/index'
-import { BeloHorizonte } from '../../data/Analogicas/BeloHorizonte';
-import { Manifesto } from '../../data/Analogicas/Manifesto';
+import { motion } from 'framer-motion'
 
+import beloHorizonte from '../../assets/images/analogicas/beloHorizonte/1.jpg';
+import manifesto from '../../assets/images/analogicas/Manifesto/1.JPG';
 
 import './styles.css'
+import { Link } from 'react-router-dom';
 
 function Index() {
 
@@ -15,27 +17,33 @@ function Index() {
     return (
         <div className="analogic-content">
             <Header />
-            <h3 className="title-text">Belo Horizonte</h3>
-            <div className="image-content">
-                {
-                    BeloHorizonte.map(e => {
-                        return (
-                            <img src={e.image} alt="imagens" key={e.name} />
-                        )
-                    })
-                }
-            </div>
-            <h3 className="title-text">Manifesto</h3>
-            
-            <div className="image-content">
-                {
-                    Manifesto.map(e => {
-                        return (
-                            <img src={e.image} alt="imagens" key={e.name} />
-                        )
-                    })
-                }
-            </div>
+
+            <Link to="/analogica/beloHorizonte">
+                <motion.div
+                    className="image-content"
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1.0 }}
+                    transition={{ duration: 0.5 }}
+                >
+                    <img src={beloHorizonte} alt="beloHorizont" className="analogic-img" />
+                    <p className="text">Belo Horizonte</p>
+                </motion.div>
+            </Link>
+
+            <Link to="/analogica/manifesto">
+                <motion.div
+                    className="image-content"
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 0.5 }}
+                >
+                    <img src={manifesto} alt="manifesto" className="analogic-img" />
+                    <p className="text1">Manifesto</p>
+                </motion.div>
+            </Link>
+
         </div>
     )
 }

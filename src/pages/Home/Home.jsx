@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import Header from '../../components/Header/index'
 import ImageSlider from '../../components/ImagerSlider/ImageSlider'
 import { SliderData } from '../../data/SliderData'
@@ -13,10 +13,10 @@ function Home() {
 
     return (
         <div className="home">
+            <Header />
+ 
+            <ImageSlider slides={SliderData} />
 
-                <Header />
-
-                <ImageSlider slides={SliderData} />
 
         </div>
     )

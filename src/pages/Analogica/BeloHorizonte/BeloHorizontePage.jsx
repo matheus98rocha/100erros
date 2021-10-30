@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import React from 'react'
 import Header from '../../../components/Header/index'
 import { BeloHorizonte } from '../../../data/Analogicas/BeloHorizonte';
@@ -12,7 +13,7 @@ function BeloHorizontePage() {
                 {
                     BeloHorizonte.map((e, index) => {
                         return (
-                            <img
+                            <motion.img
                                 id={index}
                                 className="img"
                                 src={e.image}

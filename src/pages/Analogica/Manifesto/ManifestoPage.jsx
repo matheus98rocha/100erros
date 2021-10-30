@@ -3,6 +3,8 @@ import Header from '../../../components/Header/index'
 
 import { Manifesto } from '../../../data/Analogicas/Manifesto';
 
+import './styles.css'
+
 
 function ManifestoPage() {
     return (

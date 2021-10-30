@@ -19,26 +19,24 @@ function Index() {
             <Header />
             <div className="about-cont">
                 <h2>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                    provident explicabo deleniti accusamus ex. Sed
-                    facere quis, aperiam deleniti deserunt expedita laboriosam
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque<br/>
+                    provident explicabo deleniti accusamus ex. Sed<br/>
+                    facere quis, aperiam deleniti deserunt expedita laboriosam<br/>
                     unt aliquid? Iste ratione est illo dolores sit.
                     Lorem ipsum dolor sit <br/>
-                    amet consectetur adipisicing elit. Itaque
-                    provident explicabo deleniti accusamus ex. Sed
-                    facere quis, aperiam deleniti deserunt expedita laboriosam
-                    unt aliquid? Iste ratione est illo dolores sit.
+                    amet consectetur adipisicing elit. Itaque<br/>
+                    provident explicabo deleniti accusamus ex. Sed<br/>
+                    facere quis, aperiam deleniti deserunt expedita laboriosam<br/>
+                    unt aliquid? Iste ratione est illo dolores sit.<br/>
                     Lorem ipsum dolor sit
                 </h2>
 
                 <motion.div
                     className="image-content"
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1.0 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <img src={beloHorizonte} alt="beloHorizont" className="analogic-img" />
+                    <img src={beloHorizonte} alt="beloHorizont" className="img" />
                 </motion.div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../../components/Header/index'
+import Header from '../../../components/Header/index'
 
-import { Manifesto } from '../../data/Analogicas/Manifesto';
+import { Manifesto } from '../../../data/Analogicas/Manifesto';
 
 
 function ManifestoPage() {

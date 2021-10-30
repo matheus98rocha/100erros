@@ -60,12 +60,15 @@ p:hover {
 @media (max-width: 925px) {
 
 
-    .image-content {
+    .analogic-content {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin-top: 10px;
+    }
+
+    .image-content{
+        margin-top: 20px;
     }
 
     .image-content .analogic-img {

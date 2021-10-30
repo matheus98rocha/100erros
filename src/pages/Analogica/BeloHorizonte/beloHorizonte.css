@@ -1,0 +1,43 @@
+.bh-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-contet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.img {
+    width: 650px;
+    height: 650px;
+}
+
+.img:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 925px) {
+
+    .bh-page {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        width: 200px;
+    }
+
+    .image-contet {
+        margin-top: 50px;
+        gap: 2px;
+    }
+
+    .img {
+        width: 150px;
+        height: 150px;
+    }
+}

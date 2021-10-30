@@ -8,8 +8,8 @@ const Home = lazy(() => import("./pages/Home/Home"));
 const About = lazy(() => import("./pages/About/index"));
 
 const Analogica = lazy(() => import("./pages/Analogica/index"));
-const BeloHorizontePage = lazy(() => import("./pages/Analogica/BeloHorizontePage"));
-const ManifestoPage = lazy(() => import("./pages/Analogica/ManifestoPage"));
+const BeloHorizontePage = lazy(() => import("./pages/Analogica/BeloHorizonte/BeloHorizontePage"));
+const ManifestoPage = lazy(() => import("./pages/Analogica/Manifesto/ManifestoPage"));
 
 
 const Pojects = lazy(() => import("./pages/Session/index"));

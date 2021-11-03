@@ -59,227 +59,218 @@ import photo56 from '../../assets/images/analogicas/beloHorizonte/56.jpg';
 
 export const BeloHorizonte = [
     {
-        name1: "photo1",
         image: photo1
     },
     {
-        name1: "photo2",
         image: photo2
     },
     {
-        name1: "photo3",
         image: photo3
     },
     {
-        name1: "photo4",
         image: photo4
     },
     {
-        name1: "photo5",
         image: photo5
     },
     {
-        name1: "photo6",
         image: photo6
     },
     {
-        name1: "photo7",
         image: photo7
     },
     {
-        name1: "photo8",
         image: photo8
     },
     {
-        name1: "photo9",
         image: photo9
     },
     {
-        name1: "photo10",
+
         image: photo10
     },
     {
-        name1: "photo11",
+
         image: photo11
     },
     {
-        name1: "photo12",
+
         image: photo12
     },
     {
-        name1: "photo13",
+
         image: photo13
     },
     {
-        name1: "photo14",
+
         image: photo14
     },
     {
-        name1: "photo15",
+
         image: photo15
     },
     {
-        name1: "photo16",
+
         image: photo16
     },
     {
-        name1: "photo17",
+
         image: photo17
     },
     {
-        name1: "photo18",
+
         image: photo18
     },
     {
-        name1: "photo19",
+
         image: photo19
     },
     {
-        name1: "photo20",
+
         image: photo20
     },
     {
-        name1: "photo21",
+
         image: photo21
     },
     {
-        name1: "photo22",
+
         image: photo22
     },
     {
-        name1: "photo23",
+
         image: photo23
     },
     {
-        name1: "photo24",
+
         image: photo24
     },
     {
-        name1: "photo25",
+
         image: photo25
     },
     {
-        name1: "photo26",
+
         image: photo26
     },
     {
-        name1: "photo27",
+
         image: photo27
     },
     {
-        name1: "photo28",
+
         image: photo28
     },
     {
-        name1: "photo29",
+
         image: photo29
     },
     {
-        name1: "photo30",
+
         image: photo30
     },
     {
-        name1: "photo31",
+
         image: photo31
     },
     {
-        name1: "photo32",
+
         image: photo32
     },
     {
-        name1: "photo33",
+
         image: photo33
     },
     {
-        name1: "photo34",
+
         image: photo34
     },
     {
-        name1: "photo35",
+
         image: photo35
     },
     {
-        name1: "photo36",
+
         image: photo36
     },
     {
-        name1: "photo37",
+
         image: photo37
     },
     {
-        name1: "photo38",
+
         image: photo38
     },
     {
-        name1: "photo39",
+
         image: photo39
     },
     {
-        name1: "photo40",
+
         image: photo40
     },
     {
-        name1: "photo41",
+
         image: photo41
     },
     {
-        name1: "photo42",
+
         image: photo42
     },
     {
-        name1: "photo43",
+
         image: photo43
     },
     {
-        name1: "photo44",
+
         image: photo44
     },
     {
-        name1: "photo45",
+
         image: photo45
     },
     {
-        name1: "photo46",
+
         image: photo46
     },
     {
-        name1: "photo47",
+
         image: photo47
     },
     {
-        name1: "photo48",
+
         image: photo48
     },
     {
-        name1: "photo49",
+
         image: photo49
     },
     {
-        name1: "photo50",
+
         image: photo50
     },
     {
-        name1: "photo51",
+
         image: photo51
     },
     {
-        name1: "photo52",
+
         image: photo52
     },
     {
-        name1: "photo53",
+
         image: photo53
     },
     {
-        name1: "photo54",
+
         image: photo54
     },
     {
-        name1: "photo55",
+
         image: photo55
     },
     {
-        name1: "photo56",
+
         image: photo56
     }
 ]

@@ -3,7 +3,7 @@ import Header from '../../components/Header/index'
 import { motion } from 'framer-motion'
 
 import beloHorizonte from '../../assets/images/analogicas/beloHorizonte/1.jpg';
-import manifesto from '../../assets/images/analogicas/Manifesto/1.JPG';
+import manifesto from '../../assets/images/analogicas/Manifesto/1_Easy-Resize.com.jpg';
 
 import './styles.css'
 import { Link } from 'react-router-dom';

@@ -19,16 +19,10 @@ function Index() {
             <Header />
             <div className="about-cont">
                 <h2>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque<br/>
-                    provident explicabo deleniti accusamus ex. Sed<br/>
-                    facere quis, aperiam deleniti deserunt expedita laboriosam<br/>
-                    unt aliquid? Iste ratione est illo dolores sit.
-                    Lorem ipsum dolor sit <br/>
-                    amet consectetur adipisicing elit. Itaque<br/>
-                    provident explicabo deleniti accusamus ex. Sed<br/>
-                    facere quis, aperiam deleniti deserunt expedita laboriosam<br/>
-                    unt aliquid? Iste ratione est illo dolores sit.<br/>
-                    Lorem ipsum dolor sit
+                    Iniciei na fotografia já que gostaria de fazer <br/>
+                    um banco de dados no qual eu conseguisse<br/>
+                    reunir o máximo de retratos de pessoas situações e locais diferentes.
+                    Para que mesmo na perda da memória conseguissimos nos lembrar dos momentos vividos
                 </h2>
 
                 <motion.div

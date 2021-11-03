@@ -14,8 +14,8 @@ function Home() {
     return (
         <div className="home">
             <Header />
- 
-            <ImageSlider slides={SliderData} />
+
+            <ImageSlider slides={SliderData} data={SliderData} />
 
 
         </div>

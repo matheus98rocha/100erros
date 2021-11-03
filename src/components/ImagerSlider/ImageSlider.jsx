@@ -1,12 +1,11 @@
 import React, { useState } from 'react'
-import { SliderData } from '../../data/SliderData'
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 import "./styles.css"
 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
-function ImageSlider({ slides }) {
+function ImageSlider({ slides, data }) {
 
     const [current, setCurrent] = useState(0);
     const length = slides.length;
@@ -19,10 +18,6 @@ function ImageSlider({ slides }) {
         setCurrent(current === length - 1 ? 0 : current - 1);
     }
 
-    // setInterval(() => {
-    //     setCurrent(current === length - 1 ? 0 : current + 1);
-    // }, 4000)
-
     if (!Array.isArray(slides) || slides.length <= 0) {
         return null;
     }
@@ -34,7 +29,7 @@ function ImageSlider({ slides }) {
             }
             <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
             {
-                SliderData.map((slide, index) => {
+                data.map((slide, index) => {
 
                     return (
                         <>
@@ -47,7 +42,7 @@ function ImageSlider({ slides }) {
                                             className="image"
                                             effect="blur"
                                         />
-                                        <p className="text-image">{slide.name}</p>
+                                        {slide.name ? <p className="text-image">{slide.name}</p> : ""}
                                     </div>)
                                 }
                             </div>

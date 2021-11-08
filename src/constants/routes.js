@@ -7,7 +7,10 @@ export const MANIFESTO = "/analogica/manifesto";
 
 
 
-export const PROJETOS = "/sessao";
+export const SESSAO = "/sessao";
+export const B1B2 = "/sessao/b1b2";
+
+
 export const DESIGNER = "/designer";
 export const CONTATO = "/contato";
 export const VIDEOS = "/videos";

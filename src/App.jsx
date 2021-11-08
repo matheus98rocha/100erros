@@ -12,7 +12,10 @@ const BeloHorizontePage = lazy(() => import("./pages/Analogica/BeloHorizonte/Bel
 const ManifestoPage = lazy(() => import("./pages/Analogica/Manifesto/ManifestoPage"));
 
 
-const Pojects = lazy(() => import("./pages/Session/index"));
+const SESSAO = lazy(() => import("./pages/Session/index"));
+const B1B2 = lazy(() => import("./pages/Session/b1b2/index"));
+
+
 const Designer = lazy(() => import("./pages/Designer/index"));
 const Videos = lazy(() => import("./pages/Videos/index"));
 const Contact = lazy(() => import("./pages/Contact/index"));
@@ -49,7 +52,9 @@ function App() {
 
 
 
-            <Route path={Routes.PROJETOS} component={Pojects} exact />
+            <Route path={Routes.SESSAO} component={SESSAO} exact />
+            <Route path={Routes.B1B2} component={B1B2} exact />
+
             <Route path={Routes.DESIGNER} component={Designer} exact />
             <Route path={Routes.CONTATO} component={Contact} exact />
             <Route path={Routes.VIDEOS} component={Videos} exact />

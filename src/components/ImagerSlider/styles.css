@@ -46,6 +46,8 @@
         width: 800px;
         border-radius: 10px;
 
+        margin-left: 25px;
+
     }
 
     .left-arrow:hover {
@@ -88,6 +90,9 @@
         .image {
             height: 300px;
             width: 280px;
+            
+        margin-left: 0px;
+
         }
 
         .right-arrow {

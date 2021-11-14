@@ -14,6 +14,8 @@ const ManifestoPage = lazy(() => import("./pages/Analogica/Manifesto/ManifestoPa
 
 const SESSAO = lazy(() => import("./pages/Session/index"));
 const B1B2 = lazy(() => import("./pages/Session/b1b2/index"));
+const BRONCA = lazy(() => import("./pages/Session/bronca/index"));
+
 
 
 const Designer = lazy(() => import("./pages/Designer/index"));
@@ -54,6 +56,8 @@ function App() {
 
             <Route path={Routes.SESSAO} component={SESSAO} exact />
             <Route path={Routes.B1B2} component={B1B2} exact />
+            <Route path={Routes.BRONCA} component={BRONCA} exact />
+
 
             <Route path={Routes.DESIGNER} component={Designer} exact />
             <Route path={Routes.CONTATO} component={Contact} exact />

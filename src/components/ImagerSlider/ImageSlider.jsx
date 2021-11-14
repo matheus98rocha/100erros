@@ -42,7 +42,9 @@ function ImageSlider({ slides, data }) {
                                             className="image"
                                             effect="blur"
                                         />
-                                        {slide.name ? <p className="text-image">{slide.name}</p> : ""}
+                                        {slide.name ?
+                                         <p className="text-image">{slide.name}</p> 
+                                        : ""}
                                     </div>)
                                 }
                             </div>

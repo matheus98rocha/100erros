@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom';
 import './styles.css'
 
 import photo1 from '../../assets/images/sessao/B1B2/1.jpg';
+import photo2 from '../../assets/images/sessao/Bronca/1.JPG';
+
 
 
 function Index() {
@@ -30,8 +32,7 @@ function Index() {
                     <p className="text">B1B2</p>
                 </motion.div>
             </Link>
-
-            {/* <Link to="/analogica/manifesto">
+            <Link to="/sessao/bronca">
                 <motion.div
                     className="image-content"
                     whileHover={{ scale: 1.1 }}
@@ -39,10 +40,11 @@ function Index() {
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <img src={} alt="" className="analogic-img" />
+                    <img src={photo2} alt="" className="analogic-img" />
                     <p className="text1">Material</p>
                 </motion.div>
-            </Link> */}
+            </Link>
+
         </div>
     )
 }

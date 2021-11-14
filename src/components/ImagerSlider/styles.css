@@ -45,7 +45,9 @@
         height: 800px;
         width: 800px;
         border-radius: 10px;
+
         margin-left: 25px;
+
     }
 
     .left-arrow:hover {
@@ -58,12 +60,14 @@
 
     .text-image {
         padding: 20px;
-        font-weight: bolder;
-        border-radius: 10px;
-        text-align: center;
-        color: white;
+        background-color: white;
 
-        font-size:30px
+        font-weight: bolder;
+
+        border-radius: 10px;
+
+        text-align: center;
+        color: black;
     }
 
 

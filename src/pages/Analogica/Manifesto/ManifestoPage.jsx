@@ -8,9 +8,14 @@ import './styles.css'
 
 function ManifestoPage() {
     return (
-        <div>
+        <div style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            flexDirection: "column"
+        }}>
             <Header />
-            <ImageSlider slides={Manifesto}  data={Manifesto}/>
+            <ImageSlider slides={Manifesto} data={Manifesto} />
         </div>
     )
 }

@@ -10,6 +10,8 @@ export const MANIFESTO = "/analogica/manifesto";
 export const SESSAO = "/sessao";
 export const B1B2 = "/sessao/b1b2";
 export const BRONCA = "/sessao/bronca";
+export const EDITORA = "/sessao/editora";
+
 
 
 

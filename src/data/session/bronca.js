@@ -8,7 +8,7 @@ import photo7 from '../../assets/images/sessao/Bronca/7.png';
 import photo8 from '../../assets/images/sessao/Bronca/8.png';
 import photo9 from '../../assets/images/sessao/Bronca/9.png';
 import photo10 from '../../assets/images/sessao/Bronca/10.png';
-import photo11 from '../../assets/images/sessao/Bronca/10.png';
+import photo11 from '../../assets/images/sessao/Bronca/11.png';
 
 
 export const bronca = [

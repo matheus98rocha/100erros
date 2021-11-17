@@ -11,6 +11,10 @@ export const SESSAO = "/sessao";
 export const B1B2 = "/sessao/b1b2";
 export const BRONCA = "/sessao/bronca";
 export const EDITORA = "/sessao/editora";
+export const IZA = "/sessao/iza";
+export const WAKANDA = "/sessao/wakanda";
+export const SOL = "/sessao/sol";
+
 
 
 

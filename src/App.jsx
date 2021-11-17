@@ -16,6 +16,10 @@ const SESSAO = lazy(() => import("./pages/Session/index"));
 const B1B2 = lazy(() => import("./pages/Session/b1b2/index"));
 const BRONCA = lazy(() => import("./pages/Session/bronca/index"));
 const EDITORA = lazy(() => import("./pages/Session/editora/index"));
+const IZA = lazy(() => import("./pages/Session/iza/index"));
+const SOL = lazy(() => import("./pages/Session/sol/index"));
+const WAKANDA = lazy(() => import("./pages/Session/wakanda/index"));
+
 
 
 
@@ -60,6 +64,10 @@ function App() {
             <Route path={Routes.B1B2} component={B1B2} exact />
             <Route path={Routes.BRONCA} component={BRONCA} exact />
             <Route path={Routes.EDITORA} component={EDITORA} exact />
+            <Route path={Routes.IZA} component={IZA} exact />
+            <Route path={Routes.SOL} component={SOL} exact />
+            <Route path={Routes.WAKANDA} component={WAKANDA} exact />
+
 
             <Route path={Routes.DESIGNER} component={Designer} exact />
             <Route path={Routes.CONTATO} component={Contact} exact />

@@ -42,9 +42,13 @@
 
 
     .image {
-        height: 600px;
-        width: 600px;
+        height: 350px;
+        width: 400px;
         border-radius: 10px;
+    }
+
+    .image:hover {
+        transform: scale(1.4);
 
     }
 
@@ -89,6 +93,11 @@
             height: 300px;
             width: 280px;
             margin-left: 0px;
+
+        }
+
+        .image:hover {
+            transform: scale(1.1);
 
         }
 

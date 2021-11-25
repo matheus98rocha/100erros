@@ -1,0 +1,10 @@
+.designer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-home{
+    height: 30vh;
+}

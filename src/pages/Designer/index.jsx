@@ -1,5 +1,9 @@
-import React,{useEffect} from 'react'
+import React, { useEffect } from 'react'
 import Header from '../../components/Header/index'
+import ImageSlider from '../../components/ImagerSlider/ImageSlider'
+import { SliderData } from '../../data/SliderData'
+//import { motion } from "framer-motion"
+import "./styles.css"
 
 function Index() {
 
@@ -8,9 +12,12 @@ function Index() {
     });
 
     return (
-        <div>
+        <div className="designer">
             <Header />
-            <h1>Designer</h1>
+
+            <ImageSlider slides={SliderData} data={SliderData} />
+
+
         </div>
     )
 }

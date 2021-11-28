@@ -8,6 +8,7 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 function ImageSlider({ slides, data }) {
 
     const [current, setCurrent] = useState(0);
+    const [imageClicked, setImageClicked] = useState(false);
     const length = slides.length;
 
     const nextSlide = () => {
@@ -25,9 +26,15 @@ function ImageSlider({ slides, data }) {
     return (
         <div className="slider">
             {
-                current === 0 ? <></> : <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
+                current === 0 ? <></> : 
+                <FaArrowAltCircleLeft 
+                className="left-arrow"
+                 onClick={() => {prevSlide();setImageClicked(false)}} />
             }
-            <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
+            <FaArrowAltCircleRight
+                className="right-arrow"
+                onClick={() => { nextSlide(); setImageClicked(false) }}
+            />
             {
                 data.map((slide, index) => {
 
@@ -39,7 +46,8 @@ function ImageSlider({ slides, data }) {
                                         <LazyLoadImage
                                             src={slide.image}
                                             alt="design-images"
-                                            className="image"
+                                            onClick={() => setImageClicked(!imageClicked)}
+                                            className={imageClicked ? "image-clicked" : "image"}
                                             effect="blur"
                                         />
                                         {slide.name ?

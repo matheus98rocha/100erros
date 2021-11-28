@@ -1,9 +1,7 @@
-import photo1 from '../../assets/images/sessao/Editora/1.jpg';
 import photo2 from '../../assets/images/sessao/Editora/2.jpg';
 import photo3 from '../../assets/images/sessao/Editora/3.jpg';
 import photo4 from '../../assets/images/sessao/Editora/4.jpg';
 import photo5 from '../../assets/images/sessao/Editora/5.jpg';
-import photo6 from '../../assets/images/sessao/Editora/6.jpg';
 import photo7 from '../../assets/images/sessao/Editora/7.jpg';
 import photo8 from '../../assets/images/sessao/Editora/8.jpg';
 import photo9 from '../../assets/images/sessao/Editora/9.jpg';
@@ -12,7 +10,6 @@ import photo11 from '../../assets/images/sessao/Editora/11.jpg';
 import photo12 from '../../assets/images/sessao/Editora/12.jpg';
 import photo13 from '../../assets/images/sessao/Editora/13.jpg';
 import photo14 from '../../assets/images/sessao/Editora/14.jpg';
-import photo15 from '../../assets/images/sessao/Editora/15.jpg';
 import photo16 from '../../assets/images/sessao/Editora/16.jpg';
 import photo17 from '../../assets/images/sessao/Editora/17.jpg';
 import photo18 from '../../assets/images/sessao/Editora/18.jpg';
@@ -29,9 +26,6 @@ import photo23 from '../../assets/images/sessao/Editora/23.jpg';
 export const editora = [
 
     {
-        image: photo1
-    },
-    {
         image: photo2
     },
     {
@@ -42,9 +36,6 @@ export const editora = [
     },
     {
         image: photo5
-    },
-    {
-        image: photo6
     },
     {
 
@@ -78,10 +69,6 @@ export const editora = [
     {
 
         image: photo14
-    },
-    {
-
-        image: photo15
     },
     {
 

@@ -1,5 +1,4 @@
 import photo2 from '../../assets/images/analogicas/Manifesto/2_Easy-Resize.com.jpg';
-import photo3 from '../../assets/images/analogicas/Manifesto/3_Easy-Resize.com.jpg';
 import photo4 from '../../assets/images/analogicas/Manifesto/4_Easy-Resize.com.jpg';
 import photo5 from '../../assets/images/analogicas/Manifesto/5_Easy-Resize.com.jpg';
 import photo6 from '../../assets/images/analogicas/Manifesto/6_Easy-Resize.com.jpg';
@@ -13,7 +12,6 @@ import photo13 from '../../assets/images/analogicas/Manifesto/13_Easy-Resize.com
 import photo14 from '../../assets/images/analogicas/Manifesto/14_Easy-Resize.com.jpg';
 import photo15 from '../../assets/images/analogicas/Manifesto/15_Easy-Resize.com.jpg';
 import photo16 from '../../assets/images/analogicas/Manifesto/16_Easy-Resize.com.jpg';
-import photo17 from '../../assets/images/analogicas/Manifesto/17_Easy-Resize.com.jpg';
 import photo18 from '../../assets/images/analogicas/Manifesto/18_Easy-Resize.com.jpg';
 
 
@@ -21,9 +19,6 @@ export const Manifesto = [
 
     {
         image: photo2
-    },
-    {
-        image: photo3
     },
     {
         image: photo4
@@ -70,10 +65,6 @@ export const Manifesto = [
     {
 
         image: photo16
-    },
-    {
-
-        image: photo17
     },
     {
 

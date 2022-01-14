@@ -18,8 +18,8 @@ h1 {
 }
 
 iframe{
-    max-width: 400px;
-    max-height: 315px;
+    max-width: 420px;
+    max-height: 335px;
 }
 
 .content-video{
@@ -31,7 +31,7 @@ iframe{
 
 .title-video{
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
 }
 @media (max-width: 925px) {

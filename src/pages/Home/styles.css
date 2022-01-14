@@ -9,38 +9,22 @@
     height: 30vh;
 }
 
-
 h1 {
     color: white;
     text-align: center;
     line-height: 50px;
     font-size: 30px;
 
-    font-family: 'Special Elite', cursive;
+    font-family: "Special Elite", cursive;
 }
-@media (min-height: 700px) {
-    .gif-home {
-        width: 436px;
-        height: 480px;
-    }
-    
-}
-
-@media (max-height: 700px) {
-    .gif-home {
-        width: 302px;
-        height: 344px;
-    }
-    
+.photo {
+    max-height: 470px;
+    width: 680px;
 }
 
 @media (max-width: 925px) {
-
-    .gif-home {
-
-        margin-top: 30px;
-
-        width: 260px;
-        height: 280px;
+    .photo {
+        height: 500px;
+        width: 320px;
     }
 }

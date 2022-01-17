@@ -1,20 +1,19 @@
 import React, { useEffect } from 'react'
 import Header from '../../components/Header/index';
-import { motion } from 'framer-motion'
-import { Link } from 'react-router-dom';
+// import { motion } from 'framer-motion'
+// import { Link } from 'react-router-dom';
+import { Session } from '../../data/session/Session';
+import Card from '../../components/Card';
+
 
 import './styles.css'
 
-import photo1 from '../../assets/images/sessao/B1B2/1.jpg';
-import photo2 from '../../assets/images/sessao/Bronca/1.JPG';
-import photo3 from '../../assets/images/sessao/Editora/1.jpg';
-import photo4 from '../../assets/images/sessao/iza/1.png';
-import photo5 from '../../assets/images/sessao/sol/1.jpg';
-import photo6 from '../../assets/images/sessao/wakanda/1.jpg';
-
-
-
-
+// import photo1 from '../../assets/images/sessao/B1B2/1.jpg';
+// import photo2 from '../../assets/images/sessao/Bronca/1.JPG';
+// import photo3 from '../../assets/images/sessao/Editora/1.jpg';
+// import photo4 from '../../assets/images/sessao/iza/1.png';
+// import photo5 from '../../assets/images/sessao/sol/1.jpg';
+// import photo6 from '../../assets/images/sessao/wakanda/1.jpg';
 
 function Index() {
 
@@ -23,82 +22,23 @@ function Index() {
     });
 
     return (
-        <div className="analogic-content">
+        <div className="session-content">
             <Header />
-
-            <Link to="/sessao/b1b2">
-                <motion.div
-                    className="image-content"
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                    animate={{ opacity: 1, scale: 1.0 }}
-                    transition={{ duration: 0.5 }}
-                >
-                    <img src={photo1} alt="" className="analogic-img" />
-                    <p className="text">B1B2</p>
-                </motion.div>
-            </Link>
-            <Link to="/sessao/bronca">
-                <motion.div
-                    className="image-content"
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ duration: 0.5 }}
-                >
-                    <img src={photo2} alt="" className="analogic-img" />
-                    <p className="text1">Material</p>
-                </motion.div>
-            </Link>
-            {<Link to="/sessao/editora">
-                <motion.div
-                    className="image-content"
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ duration: 0.5 }}
-                >
-                    <img src={photo3} alt="" className="analogic-img" />
-                    <p className="text1">Material</p>
-                </motion.div>
-            </Link>}
-            {<Link to="/sessao/iza">
-                <motion.div
-                    className="image-content"
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ duration: 0.5 }}
-                >
-                    <img src={photo4} alt="" className="analogic-img" />
-                    <p className="text1">Izal</p>
-                </motion.div>
-            </Link>}
-            {<Link to="/sessao/sol">
-                <motion.div
-                    className="image-content"
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ duration: 0.5 }}
-                >
-                    <img src={photo5} alt="" className="analogic-img" />
-                    <p className="text1">Sol</p>
-                </motion.div>
-            </Link>}
-            {<Link to="/sessao/wakanda">
-                <motion.div
-                    className="image-content"
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ duration: 0.5 }}
-                >
-                    <img src={photo6} alt="" className="analogic-img" />
-                    <p className="text1">Wakanda</p>
-                </motion.div>
-            </Link>}
-
+            <div className="cards-container">
+                {
+                    Session.map(e => {
+                        return (
+                            <Card
+                                title={e.title}
+                                imageUrl={e.imageUrl}
+                                body={e.body}
+                                destiny={e.destiny}
+                                className="card"
+                            />
+                        )
+                    })
+                }
+            </div>
         </div>
     )
 }

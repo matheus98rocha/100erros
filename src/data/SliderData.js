@@ -10,7 +10,7 @@ import batalhaDaleste from '../assets/images/Batalha Daleste/FONTESDALESTE.jpg';
 import lucasRata from '../assets/images/LucasRasta/cd_rasta.jpg';
 import lucasRata2 from '../assets/images/LucasRasta/FRENNNTE-CD11.jpg';
 import MarianaMacedo from '../assets/images/Mariana Macedo/12251.jpg';
-import meditacao from '../assets/images/Meditação app/ing – 4.png';
+//import meditacao from '../assets/images/Meditação app/ing – 4.png';
 import MobilizaMinas1 from '../assets/images/Mobiliza Minas/mobilizaBEHANCE.jpg';
 import MobilizaMinas2 from '../assets/images/Mobiliza Minas/MOBILIZAMINASBEHANCE.jpg';
 
@@ -69,10 +69,6 @@ export const SliderData = [
     {
         name: "Mariana Macedo",
         image: MarianaMacedo
-    },
-    {
-        name: "Meditação App",
-        image: meditacao
     },
     {
         name: "Mobiliza Minas",

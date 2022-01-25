@@ -34,7 +34,8 @@
 
 .btn {
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    height: 100%;
 }
 
 .btn button {
@@ -49,4 +50,8 @@
 .btn button:hover {
     background: rgb(27, 156, 252, 0.1);
     cursor: pointer;
+}
+
+.card-body p{
+    font-size: 15px;
 }

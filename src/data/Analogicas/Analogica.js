@@ -5,13 +5,13 @@ export const Analogica = [
     {
         title: "Manifestação",
         imageUrl: manifesto,
-        body: "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        body: "Imagens retiradas em Belo Horizonte - MG. Fotos analógicas ( ASAHI PENTAX - K1000 - ISO 800 ).",
         destiny: "/analogica/manifesto",
     },
     {
         title: "Belo Horizonte",
         imageUrl: beloHorizonte,
-        body: "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        body: "Imagens sortidas de Belo Horizonte . ( ASAHI PENTAX - K1000 - ISO 800 )",
         destiny: "/analogica/beloHorizonte",
     }
 ]

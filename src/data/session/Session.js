@@ -9,13 +9,13 @@ export const Session = [
     {
         title: "B1B2",
         imageUrl: photo1,
-        body: "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        body: "imagens retiradas em Belo Horizonte - MG - Os irmão Kelvin vulgo B1 e Samuel B2 ( @kelvinsb1 e @samuelvsb2 ) Cantores , compositores e dançarinos de Belo Horizonte",
         destiny: "/sessao/b1b2",
     },
     {
         title: "Bronca",
         imageUrl: photo2,
-        body: "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        body: "Imanges retiradas em Bauru - SP . Andrews Bronca , ator , dançarino e coreógrafo, MC , artista independente . @oficialbronca",
         destiny: "/sessao/bronca",
     }, {
         title: "Editora",
@@ -30,7 +30,7 @@ export const Session = [
     }, {
         title: "Sol",
         imageUrl: photo5,
-        body: "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        body: " Imagens retiradas no Jarezinho - Rj, Sol e sua mãe Raissa.",
         destiny: "/sessao/sol",
     }, {
         title: "Wakanda",

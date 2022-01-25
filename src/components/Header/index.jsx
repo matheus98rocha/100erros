@@ -28,10 +28,6 @@ function Index() {
                         <li>Inicio</li>
                     </Link>
 
-                    <Link to="/sobre" style={{ textDecoration: "none" }}>
-                        <li>Sobre</li>
-                    </Link>
-
                     <Link to="/analogica" style={{ textDecoration: "none" }}>
                         <li>Analogica</li>
                     </Link>

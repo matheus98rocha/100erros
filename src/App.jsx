@@ -5,7 +5,6 @@ import Loader from 'react-loader-spinner';
 import './App.css'
 
 const Home = lazy(() => import("./pages/Home/Home"));
-const About = lazy(() => import("./pages/About/index"));
 
 const Analogica = lazy(() => import("./pages/Analogica/index"));
 const BeloHorizontePage = lazy(() => import("./pages/Analogica/BeloHorizonte/BeloHorizontePage"));
@@ -53,7 +52,6 @@ function App() {
         }>
           <Switch>
             <Route path={Routes.HOME} component={Home} exact />
-            <Route path={Routes.SOBRE} component={About} exact />
             <Route path={Routes.ANALOGICA} component={Analogica} exact />
             <Route path={Routes.BELOHORIZONTE} component={BeloHorizontePage} exact />
             <Route path={Routes.MANIFESTO} component={ManifestoPage} exact />

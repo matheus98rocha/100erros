@@ -18,13 +18,14 @@ h1 {
     font-family: "Special Elite", cursive;
 }
 .photo {
-    max-height: 670px;
-    width: 680px;
+    width: 650px;
+    height: 650px;
+    border-radius: 10px;
 }
 
 @media (max-width: 925px) {
     .photo {
-        height: 500px;
-        width: 320px;
+        height: 380px;
+        width: 360px;
     }
 }

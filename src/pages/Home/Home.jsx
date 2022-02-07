@@ -5,6 +5,7 @@ import { AutomaticSliderData } from '../../data/AutomaticSliderData';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
+
 function Home() {
     const [current, setCurrent] = useState(0);
 

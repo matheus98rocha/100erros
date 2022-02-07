@@ -1,9 +1,15 @@
 import photo1 from '../../assets/images/sessao/B1B2/1.jpg';
 import photo2 from '../../assets/images/sessao/Bronca/1.JPG';
-import photo3 from '../../assets/images/sessao/Editora/1.jpg';
-import photo4 from '../../assets/images/sessao/iza/1.png';
+// import photo3 from '../../assets/images/sessao/Editora/1.jpg';
+// import photo4 from '../../assets/images/sessao/iza/1.png';
 import photo5 from '../../assets/images/sessao/sol/1.jpg';
 import photo6 from '../../assets/images/sessao/wakanda/1.jpg';
+import photo7 from '../../assets/images/sessao/juninhodoquebra/_MG_0837-3.jpg';
+import photo8 from '../../assets/images/sessao/Ayoluwa Joias/6454(1).png';
+import photo9 from '../../assets/images/sessao/Lucas Rasta/_MG_9492.jpg';
+import photo10 from '../../assets/images/sessao/Tamara Frankilin/_MG_7262.jpg';
+
+
 
 export const Session = [
     {
@@ -40,5 +46,25 @@ export const Session = [
         imageUrl: photo6,
         body: "Imagens retiradas no Jacarezinho - Rj , Wakanda Chuki Brechozeira e Styling e Saúde.",
         destiny: "/sessao/wakanda",
+    }, {
+        title: "Juninho do Quebra",
+        imageUrl: photo7,
+        body: "Atualizar texto",
+        destiny: "/sessao/juninho-do-quebra",
+    }, {
+        title: "Ayoluwa Joias",
+        imageUrl: photo8,
+        body: "Atualizar texto",
+        destiny: "/sessao/ayoluwa-joias",
+    }, {
+        title: "Lucas Rasta",
+        imageUrl: photo9,
+        body: "Atualizar texto",
+        destiny: "/sessao/lucas-rasta",
+    }, {
+        title: "Tamara Frankilin",
+        imageUrl: photo10,
+        body: "Atualizar texto",
+        destiny: "/sessao/tamara-frankilin",
     }
 ]

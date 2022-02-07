@@ -12,12 +12,8 @@ import photo11 from '../assets/images/home/11.jpg';
 import photo12 from '../assets/images/home/12.jpg';
 import photo13 from '../assets/images/home/13.jpg';
 
-
-
-
 export const AutomaticSliderData = [
     {
-
         image: photo1
     },
     {

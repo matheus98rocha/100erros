@@ -1,8 +1,22 @@
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .home {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    
+    animation: transitionIn ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forward;
 }
 
 .content-home {
@@ -18,8 +32,8 @@ h1 {
     font-family: "Special Elite", cursive;
 }
 .photo {
-    width: 650px;
-    height: 650px;
+    width: 560px;
+    height: 560px;
     border-radius: 10px;
 }
 

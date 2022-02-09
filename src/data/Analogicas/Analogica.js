@@ -19,7 +19,7 @@ export const Analogica = [
     {
         title: "Atualizar Nome da Pasta",
         imageUrl: photo3,
-        body: "Atualizar Descrição da Pasta",
+        body: " Imagens retiradas no Rio de Janeiro - Nossas ultimas ferias - Imagens retiradas com a SAMSUNG maxima 60xL",
         destiny: "/analogica/nova-pasta",
     }
 ]

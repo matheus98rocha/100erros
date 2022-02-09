@@ -1,151 +1,154 @@
-    .slider {
-        display: flex;
-        justify-items: center;
-        align-items: center;
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
+.slider {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+    animation: transitionIn ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forward;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: white;
+
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    z-index: 0;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: white;
+
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    z-index: 0;
+}
+
+.slide {
+    opacity: 0;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.left-arrow:hover {
+    transform: scale(1.1);
+}
+
+.right-arrow:hover {
+    transform: scale(1.1);
+}
+
+.text-image {
+    padding: 20px;
+    background-color: white;
+
+    font-weight: bolder;
+
+    border-radius: 10px;
+
+    text-align: center;
+    color: black;
+}
+
+@media (max-height: 700px) {
+    .image {
+        width: 570px;
+        height: 570px;
+        border-radius: 10px;
+    }
+
+    .image-clicked {
+        height: 500px;
+        width: 560px;
+        border-radius: 10px;
+    }
+}
+
+@media (min-height: 700px) {
+    .image {
+        width: 560px;
+        height: 560px;
+        border-radius: 10px;
+    }
+
+    .image-clicked {
+        height: 750px;
+        width: 900px;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 925px) {
+    .slider {
+        height: 70vh;
+        /* position: relative; */
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .image {
+        height: 380px;
+        width: 360px;
+        margin-left: 0px;
+    }
+
+    .image-clicked {
+        height: 320px;
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    .image:hover {
+        transform: scale(1.1);
     }
 
     .right-arrow {
         position: absolute;
-        top: 50%;
+        top: 85%;
         right: 32px;
         font-size: 3rem;
         color: white;
 
-        z-index: 10;
+        z-index: 2;
         cursor: pointer;
         user-select: none;
-        z-index: 0;
     }
 
     .left-arrow {
         position: absolute;
-        top: 50%;
+        top: 85%;
         left: 32px;
         font-size: 3rem;
         color: white;
 
-
-        z-index: 10;
+        z-index: 2;
         cursor: pointer;
-        user-select: none;
-        z-index: 0;
     }
-
-    .slide {
-        opacity: 0;
-    }
-
-    .slide.active {
-        opacity: 1;
-    }
-
-    .left-arrow:hover {
-        transform: scale(1.1);
-    }
-
-    .right-arrow:hover {
-        transform: scale(1.1);
-    }
-
-    .text-image {
-        padding: 20px;
-        background-color: white;
-
-        font-weight: bolder;
-
-        border-radius: 10px;
-
-        text-align: center;
-        color: black;
-    }
-
-    @media (max-height: 700px) {
-        .image {
-            width: 650px;
-            height: 650px;
-            border-radius: 10px;
-        }
-    
-        .image-clicked {
-            height: 500px;
-            width: 560px;
-            border-radius: 10px;
-        }
-    }
-
-    @media (min-height: 700px) {
-        .image {
-            width: 650px;
-            height: 650px;
-            border-radius: 10px;
-        }
-    
-        .image-clicked {
-            height: 750px;
-            width: 900px;
-            border-radius: 10px;
-        }
-    }
-
-    @media (max-width: 925px) {
-
-        .slider {
-            height: 70vh;
-            /* position: relative; */
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 1;
-
-            margin-top: 15px;
-            margin-bottom: 20px;
-
-        }
-
-        .image {
-            height: 380px;
-            width: 360px;
-            margin-left: 0px;
-
-        }
-
-        .image-clicked {
-            height: 320px;
-            width: 300px;
-            margin-left: 0px;
-
-        }
-
-        .image:hover {
-            transform: scale(1.1);
-
-        }
-
-        .right-arrow {
-            position: absolute;
-            top: 85%;
-            right: 32px;
-            font-size: 3rem;
-            color: white;
-
-            z-index: 2;
-            cursor: pointer;
-            user-select: none;
-        }
-
-        .left-arrow {
-            position: absolute;
-            top: 85%;
-            left: 32px;
-            font-size: 3rem;
-            color: white;
-
-
-            z-index: 2;
-            cursor: pointer;
-        }
-
-
-    }
+}

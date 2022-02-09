@@ -49,22 +49,22 @@ export const Session = [
     }, {
         title: "Juninho do Quebra",
         imageUrl: photo7,
-        body: "Atualizar texto",
+        body: " Juninho do quebra é EDITORIAL: HUMANIDADE - Ressignificar o AFETO humano através da fotografia de arte.",
         destiny: "/sessao/juninho-do-quebra",
     }, {
         title: "Ayoluwa Joias",
         imageUrl: photo8,
-        body: "Atualizar texto",
+        body: "O presente que não tem data! Editorial feito em São Paulo",
         destiny: "/sessao/ayoluwa-joias",
     }, {
         title: "Lucas Rasta",
         imageUrl: photo9,
-        body: "Atualizar texto",
+        body: "Imagens retiradas para o VideoClipe 3 em 1 de Lucas Rasta",
         destiny: "/sessao/lucas-rasta",
     }, {
         title: "Tamara Frankilin",
         imageUrl: photo10,
-        body: "Atualizar texto",
+        body: "Imagens retiradas da Canon Sl2 - Rapper mineira - Artista Independente",
         destiny: "/sessao/tamara-frankilin",
     }
 ]

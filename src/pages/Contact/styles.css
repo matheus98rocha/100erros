@@ -1,8 +1,22 @@
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
 .email-content {
 
     display: flex;
     align-items: center;
     justify-content: center;
+
+    animation: transitionIn ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .header-email {

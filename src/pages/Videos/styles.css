@@ -1,3 +1,12 @@
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .sub-content {
     display: flex;
     align-items: center;
@@ -15,21 +24,25 @@ h1 {
     align-items: center;
 
     gap: 20px;
+
+    animation: transitionIn ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
-iframe{
+iframe {
     max-width: 420px;
     max-height: 335px;
 }
 
-.content-video{
+.content-video {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.title-video{
+.title-video {
     text-align: center;
     font-size: 18px;
     color: white;
@@ -41,12 +54,12 @@ iframe{
         flex-direction: column;
     }
 
-    iframe{
+    iframe {
         margin-top: 8vh;
-        width:300px;
-        height:200px;
+        width: 300px;
+        height: 200px;
     }
-    .title-video{
+    .title-video {
         text-align: center;
         font-size: 10px;
         color: white;

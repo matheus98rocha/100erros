@@ -17,9 +17,9 @@ export const Analogica = [
         destiny: "/analogica/beloHorizonte",
     },
     {
-        title: "Atualizar Nome da Pasta",
+        title: "Tasha e Tracie",
         imageUrl: photo3,
         body: " Imagens retiradas no Rio de Janeiro - Nossas ultimas ferias - Imagens retiradas com a SAMSUNG maxima 60xL",
-        destiny: "/analogica/nova-pasta",
+        destiny: "/analogica/tasha-tracie",
     }
 ]

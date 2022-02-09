@@ -4,7 +4,7 @@ export const SOBRE = "/sobre";
 export const ANALOGICA = "/analogica";
 export const BELOHORIZONTE = "/analogica/beloHorizonte";
 export const MANIFESTO = "/analogica/manifesto";
-export const NOVAPASTA = "/analogica/nova-pasta";
+export const NOVAPASTA = "/analogica/tasha-tracie";
 
 
 export const SESSAO = "/sessao";

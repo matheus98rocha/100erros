@@ -73,8 +73,8 @@
 
 @media (max-height: 700px) {
     .image {
-        width: 570px;
-        height: 570px;
+        width: 550px;
+        height: 550px;
         border-radius: 10px;
     }
 
@@ -87,8 +87,8 @@
 
 @media (min-height: 700px) {
     .image {
-        width: 560px;
-        height: 560px;
+        width: 550px;
+        height: 550px;
         border-radius: 10px;
     }
 
